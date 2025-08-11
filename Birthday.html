@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday!</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      text-align: center;
+      max-width: 500px;
+      animation: pop 1s ease;
+    }
+
+    @keyframes pop {
+      0% { transform: scale(0.8); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    .card h1 {
+      font-size: 40px;
+      color: #ff4081;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 20px;
+      color: #555;
+      margin: 20px 0;
+    }
+
+    .balloons {
+      font-size: 40px;
+      margin-bottom: 30px;
+    }
+
+    .cake {
+      font-size: 50px;
+      margin-top: 10px;
+    }
+
+    .btn {
+      margin-top: 30px;
+      padding: 10px 20px;
+      background: #ff4081;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #e73370;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="balloons">🎈🎉🎁🎊</div>
+    <h1>Happy Birthday PASAMALAR!</h1>
+    <p>
+      "Happy Birthday to my dear thangachi 🎂💖
+May your life be filled with happiness, health, and success. Keep smiling always, my little sister!"
+    </p>
+    <div class="cake">🎂</div>
+    <button class="btn" onclick="alert('🎉 Have a blast! 🎉')">Send Wishes</button>
+  </div>
+
+</body>
+</html>
